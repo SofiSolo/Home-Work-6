@@ -1,29 +1,20 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Циклы 1 часть!");
 
+        System.out.println("Hello world!");
 
-        for (int i = 0; i <= 10; i++) {
-            System.out.println(" Итерация цикла" + i);
-        }
-        for (int y = 10; y >= 1; y--) {
-            System.out.println("Итерация цикла" + y);
-        }
-
-        for (int e = 0; e <= 17; e = e + 2) {
-            System.out.println(" Чётные числа " + e);
-        }
-        for (int a = 10; a >= -10; a--) {
-            System.out.println(" Итерация по убыванию" + a);
-        }
-        // задание 2.1
-        for (int b = 1904; b <= 2096; b = b + 4) {
-            System.out.println(b + " год является високосным");
-        }
-        // задание 2.2
-        int stockpiling=29000;
+        // Задание 1
+        int salary=30_564;
         int total=0;
-        for(int s=1;s<=12;s++){total = total+stockpiling;
-            System.out.println(" Месяц " + s + " сумма накоплений равна "+ total+ " рублей");}
+        int i=0;
+        for(;total<2_459_000;i++){
+            total=total+total/100;
+            total=total+salary;
+            System.out.println(" Месяц "+ i + " сумма накоплений равна "+ total + " рублей");}
+        System.out.println( total);
+        System.out.println( i);
     }
 }
+
+
+
