@@ -31,6 +31,17 @@ public class Main {
             population= population+(int)(population*birthRate)-(int)(population*deathRate);
             System.out.println( " Год -" +c + " прирост населения:" + population);
         }
+        // заданиие 2.1
+
+        int Salary= 15000;
+        int monthSalary= Salary*7/100;
+        int Total=0;
+        while (Salary<=12_000_000){
+            Salary=Salary+monthSalary;
+            Total++;
+            System.out.println( "Месяц "+ Total + " накопления составляют "+ Salary + " рублей");
+
+       }
 
 
 
