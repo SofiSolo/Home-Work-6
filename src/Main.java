@@ -67,6 +67,13 @@ public class Main {
         }
 
         //задача2.4
+        int friday=5;
+        int monthDay=31;
+        for(;friday<=31;friday++){
+            if(friday % 7==0){
+                System.out.println(" Сегодня пятница " + friday + " -е число.Необходимо подготовить отчёт");}
+        }
+
 
 
     }
