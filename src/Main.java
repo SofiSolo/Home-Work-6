@@ -46,17 +46,33 @@ public class Main {
         }
         //задание 2.2
         int cash = 15000;
-        int monthCash = Salary * 7 / 100;
+        int monthCash = cash * 7 / 100;
         int g = 0;
         while (cash <= 12_000_000) {
             cash = cash + monthCash;
             g++;
-            if(g % 6 == 0){
-            System.out.println("Месяц " + g + " накопления составляют " + cash + " рублей");
-        }}
+            if (g % 6 == 0) {
+                System.out.println("Месяц " + g + " накопления составляют " + cash + " рублей");
+            }
+        }
+        //задание 2.3
+        int income = 15000;
+        int j = 9;
+        for (; j <= 108; j++) {
+          int montIncome = income * 7 / 100;
+            if (j % 6 == 0)
+                income=montIncome+income;
+
+                System.out.println(" За " + j + "месяц накоплений" + income);
+        }
+
+        //задача2.4
+
 
     }
+
 }
+
 
 
 
