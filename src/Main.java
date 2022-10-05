@@ -73,6 +73,15 @@ public class Main {
             if (friday % 7 == 0)
                 System.out.println(" Сегодня пятница " + friday + " -е число.Необходимо подготовить отчёт");
         }
+        // задача 3.1
+        for(int year = 2022-200;year<2022+79;year = year+79){
+
+            if(year % 79 ==0);
+            System.out.println( " Комета прилетит "+ year+ " год");}
+
+        //задание 3.2
+
+
 
 
 
