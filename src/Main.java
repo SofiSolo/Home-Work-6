@@ -59,24 +59,24 @@ public class Main {
         int income = 15000;
         int j = 9;
         for (; j <= 108; j++) {
-          int montIncome = income * 7 / 100;
+            int montIncome = income * 7 / 100;
             if (j % 6 == 0)
-                income=montIncome+income;
+                income = montIncome + income;
 
-                System.out.println(" За " + j + "месяц накоплений" + income);
+            System.out.println(" За " + j + "месяц накоплений" + income);
         }
 
         //задача2.4
-        int friday=5;
-        int monthDay=31;
-        for(;friday<=31;friday++){
-            if(friday % 7==0){
-                System.out.println(" Сегодня пятница " + friday + " -е число.Необходимо подготовить отчёт");}
+        int friday = 5;
+        int monthDay = 31;
+        for (; friday <= 31; friday++) {
+            if (friday % 7 == 0)
+                System.out.println(" Сегодня пятница " + friday + " -е число.Необходимо подготовить отчёт");
         }
 
 
 
-    }
+}
 
 }
 
