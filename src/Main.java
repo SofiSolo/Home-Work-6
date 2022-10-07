@@ -36,13 +36,13 @@ public class Main {
         }
         // заданиие 2.1
 
-        int Salary = 15000;
-        int monthSalary = Salary * 7 / 100;
-        int Total = 0;
-        while (Salary <= 12_000_000) {
-            Salary = Salary + monthSalary;
-            Total++;
-            System.out.println("Месяц " + Total + " накопления составляют " + Salary + " рублей");
+        int salary1 = 15000;
+        int monthSalary = salary1 * 7 / 100;
+        int total1 = 0;
+        while (salary1 <= 12_000_000) {
+            salary1 = salary1 + monthSalary;
+            total1++;
+            System.out.println("Месяц " + total1 + " накопления составляют " + salary1 + " рублей");
         }
         //задание 2.2
         int cash = 15000;
@@ -74,16 +74,16 @@ public class Main {
                 System.out.println(" Сегодня пятница " + friday + " -е число.Необходимо подготовить отчёт");
         }
         // задача 3.1
-        for (int year = 2022 - 200; year < 2022 + 79; year = year + 79) {
+        for (int year = 2022 - 200; year < 2022 + 79; year = year + 79); {
 
-            if (year % 79 == 0) ;
+            if (year % 79 == 0) ;}
             System.out.println(" Комета прилетит " + year + " год");
         }
 
         //задание 3.2
 
-        for (int f = 1; f >= 10; f++) {
-            if (f % 2 == 0) ;
+        for (int f = 1; f >= 10; f**) {
+            if (f * 2 == 0) ;
             System.out.println(f);
         }
 
