@@ -74,17 +74,17 @@ public class Main {
                 System.out.println(" Сегодня пятница " + friday + " -е число.Необходимо подготовить отчёт");
         }
         // задача 3.1
-        for (int year = 2022 - 200; year < 2022 + 79; year = year + 79); {
+        for (int year = 2022 - 200; year < 2022 + 79; year = year + 79) {
 
-            if (year % 79 == 0) ;}
+            if (year % 79 == 0)
             System.out.println(" Комета прилетит " + year + " год");
         }
 
         //задание 3.2
 
-        for (int f = 1; f >= 10; f**) {
-            if (f * 2 == 0) ;
-            System.out.println(f);
+        for (int f = 1; f >= 10; f++) {
+            System.out.println ("f * "+ i+ "="+ f*i) ;
+
         }
 
 
